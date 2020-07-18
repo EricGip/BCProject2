@@ -98,6 +98,21 @@ li {
   padding: 50px;
 }
 
+#go-btn {
+  color: red;
+  font-weight: bold;
+  font-size: x-large;
+  font-family: cursive;
+}
+
+.stage1-btn {
+  border-radius: 50px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  float: right;
+}
+
 .login-container {
   color: red;
   font-family: cursive;
