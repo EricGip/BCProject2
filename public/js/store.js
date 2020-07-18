@@ -23,40 +23,40 @@ $(document.ready(function()
         let user = stats;
         switch (picked){
             case "sword":
-            user.Attack=user.Attack+3,
-            user.Defense=user.Defense+5,
-            user.Speed=user.Speed+5,
-            user.Gil=user.Gil-5,
+            user.Attack=user.Attack+3;
+            user.Defense=user.Defense+5;
+            user.Speed=user.Speed+5;
+            user.Gil=user.Gil-5;
             break;
 
             case "axe":
-            user.Attack=user.Attack+4,
-            user.Defense=user.Defense+3,
-            user.Speed=user.Speed+3,
-            user.Gil=user.Gil-5
+            user.Attack=user.Attack+4;
+            user.Defense=user.Defense+3;
+            user.Speed=user.Speed+3;
+            user.Gil=user.Gil-5;
             break;
 
             case "potion":
-            user.gil=user.gil-10
+            user.gil=user.gil-10;
             // Item=
             // "HP+: 20",
             // "Gil: 10"
             break;
 
             case "light":
-            user.Hp=user.Hp+15,
-            user.Attack=user.Attack+8,
-            user.Defense=user.Defense+20,
-            user.Speed=user.Speed-3,
-            user.Gil=user.Gil-25
+            user.Hp=user.Hp+15;
+            user.Attack=user.Attack+8;
+            user.Defense=user.Defense+20;
+            user.Speed=user.Speed-3;
+            user.Gil=user.Gil-25;
             break;
 
             case "heavy":
-            user.Hp=user.Hp+15,
-            user.Attack=user.Attack+8,
-            user.Defense=user.Defense+50,
-            user.Speed=user.Speed-10,
-            user.Gil=user.Gil-25
+            user.Hp=user.Hp+15;
+            user.Attack=user.Attack+8;
+            user.Defense=user.Defense+50;
+            user.Speed=user.Speed-10;
+            user.Gil=user.Gil-25;
             break;    
         }
         
