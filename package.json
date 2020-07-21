@@ -1,7 +1,7 @@
 {
-  "name": "1-Passport-Example",
+  "name": "Final-Phantasy",
   "version": "1.0.0",
-  "description": "",
+  "description": "Full stack web adventure.",
   "main": "server.js",
   "scripts": {
     "test": "npm run lint",
