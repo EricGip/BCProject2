@@ -35,7 +35,7 @@ Himadri:  Handled building the store.js by creating the handlebars associated wi
 
 Richard:Will work on HTML/CSS, as well as look into animations for characters and NPC’s (non playable characters). Background/Set design as well as provide assistance to other team members throughout the project. Design user interface (buttons/functionality).  Did  the major work for all the handlebars except boss and store.js, however all CSS was done by Richard.
 
-Eric: Contributed mainly in Javascript and helped fill gaps with various  models/routes/and public.js areas that other group members had trouble with.  Worked with Yev on stage1 and boss.js but also figured out how to use api routes to update database after item is purchased
+Eric: Initialized database models, created routes to every handlebar page, implemented Anime.js package, attached ajax calls to store buttons to update user's stats inside database, had to reformat a lot of the HTML and css to get styling backbone, implemented random monster algorithm, passed props down from backend database to frontend to dynamically present user stats. 
 
 Yev:  Working with Eric helped write code for Stage1/boss.js.  In addition, went through each file to make sure that all our capitalizations, spacing and structure of code was uniform to present a clean code.  
 
